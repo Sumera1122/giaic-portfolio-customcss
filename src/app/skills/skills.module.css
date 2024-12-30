@@ -1,0 +1,503 @@
+/* .....................skills .............................................................. */
+
+.container{
+    width: 60%;
+    height: 100vh;
+    background-color: var(--bg-balck-color);
+    margin: 10px 0px 0px  250px;
+    border: 5px solid var(--bg-2nd-color);
+    border-radius: 10px;
+    line-height: 25px;
+    box-shadow: 2px 2px 2px 2px var(--bg-2nd-color);
+
+    }
+    .skillwrap{
+        width: 80%;
+        height: 80%;
+        background-color: rgb(34, 33, 33);
+        box-shadow: 5px 5px 5px 5px var(--bg-2nd-color);
+        margin: 100px;
+        row-gap: 30px;
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+    .competencies p{
+        margin-left: 10px;
+    }
+    
+    .competencies h3{
+        font-size: 30px;
+        font-family: dancing-script;
+        font-weight: bolder;
+        color: var(--bg-2nd-color);
+        display: flex;
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    
+    }
+    /* .............html progress bar........................... */
+    .progressbar{
+        width: 700px;
+        height: 12px;
+        border-radius: 5px;
+        border: 2px solid var(--bg-white-color);
+        margin: 20px;
+    
+    
+    }
+    .html{
+        display: flex;
+        justify-content: left;
+       
+        }
+    
+    .progressbar .html span{
+        height: 60px;
+        width: 60px;
+        display:flex;
+        justify-content: right;
+        
+        
+    
+    }
+    
+    
+    /* ..........................css progress bar..................... */
+    .progressbar1{
+        width: 700px;
+        height: 12px;
+        border-radius: 5px;
+        margin: 20px;
+        border: 2px solid var(--bg-white-color);
+       
+    
+    }
+    
+    .css{
+        display: flex;
+        justify-content: left;
+       
+        }
+    .progressbar1 .css span{
+        height: 60px;
+        width: 60px;
+        display:flex;
+        justify-content: right;
+        
+    
+    }
+    
+    /* .......................type-script css progress bar...............*/
+    .progressbar2{
+        width: 700px;
+        height: 12px;
+        border-radius: 5px;
+        margin: 20px;
+        border: 2px solid var(--bg-white-color);
+    
+    }
+    .TypeScript{
+        display: flex;
+        justify-content: left;
+        
+        }
+   .progressbar2 .TypeScript span{
+        height: 60px;
+        width: 60px;
+        display:flex;
+        justify-content: right;
+        
+    
+    
+    
+    }
+    
+    /* ..........................next-js progress bar.................... */
+    .progressbar3{
+        width: 600px;
+        height: 12px;
+        border-radius: 5px;
+        margin: 20px;
+        border: 2px solid var(--bg-white-color);
+    
+    }
+    .nextjs{
+        display: flex;
+        justify-content: left;
+       
+        }
+    
+    .progressbar3 .nextjs span{
+        height: 60px;
+        width: 60px;
+        display:flex;
+        justify-content: right;
+        margin-left: 10px;
+        
+    }
+    
+    
+    /* ........................javascript.................................... */
+    .progressbar4{
+        width: 600px;
+        height: 12px;
+        border-radius: 5px;
+        margin: 20px;
+        border: 2px solid var(--bg-white-color);
+    
+    }
+    
+    
+    .javascript{
+    display: flex;
+    justify-content: left;
+   
+    }
+    
+    .progressbar4 .javascript span{
+        height: 80px;
+        width: 80px;
+        display:flex;
+        justify-content: center;
+        margin-left: 20px;
+    
+    
+    }
+    
+    
+    /* ..........................tailwind-css progress bar....................... */
+    .progressbar5{
+        width: 600px;
+        height: 12px;
+        border-radius: 5px;
+        margin: 20px;
+        border: 2px solid var(--bg-white-color);
+    
+    }
+    .tailwindcss{
+        display: flex;
+        justify-content: left;
+        
+        }
+    
+    .progressbar5  .tailwindcss span{
+        height: 60px;
+        width: 60px;
+        display:flex;
+        justify-content: right;
+    
+        margin-left: 10px;
+    
+    
+    }
+    /* ........................react-js progress bar.................. */
+    .progressbar6{
+        width: 600px;
+        height: 12px;
+        border-radius: 5px;
+        margin: 20px;
+        border: 2px solid var(--bg-white-color);
+    
+    }
+    .progressbar6 .reactjs{
+        display: flex;
+        justify-content: left; 
+    }
+    
+    .progressbar6 .reactjs span{
+        height: 60px;
+        width: 60px;
+        display:flex;
+        margin-left: 10px;
+        justify-content: right;
+    }
+    
+    
+    .competencies{
+        margin: 30px 0px 30px 0px;
+    }
+    .competencies span{
+        color: var(--bg-2nd-color);
+    }
+    
+    .professionallife{
+        margin: 30px 0px 30px 0px;
+    }
+
+    .professionallife p{
+        margin-left: 10px;
+    }
+    
+    .professionallife span{
+        color: var(--bg-2nd-color);
+    }
+    
+    .bar1{
+        width: 85%;
+        background: var(--bg-2nd-color);
+        height: 10px;
+    }
+    
+    .bar2{
+        width: 65%;
+        background: var(--bg-2nd-color);
+        height: 10px;
+    
+    }
+    .bar3{
+        width: 63%;
+        background: var(--bg-2nd-color);
+        height: 10px;
+    
+    }
+    .bar4{
+        width: 45%;
+        background: var(--bg-2nd-color);
+        height: 10px;
+    
+    }
+    .bar5{
+        width: 45%;
+        background: var(--bg-2nd-color);
+        height: 10px;
+    
+    }
+    .bar6{
+        width: 47%;
+        background: var(--bg-2nd-color);
+        height: 10px;
+    
+    }
+    .bar7{
+        width: 40%;
+        background: var(--bg-2nd-color);
+        height: 10px;
+    
+    }
+
+
+
+
+    @media (max-width: 480px) {
+        .container {
+        width: 98%; 
+        height: 100%;
+        padding: 2px 20px 8px 20px; 
+        margin: 0px;
+
+        }
+      
+        .skillwrap {
+          text-align: center;
+          height: 90vh;
+          margin:  2px 20px 20px 20px; 
+        
+        }
+      
+        .competencies h3,.Technicalskills h3, .professionallife h3 {
+          font-size: 18px; 
+          margin-top: -10px;
+        }
+      
+        .competencies p, .professionallife p {
+          font-size: 12px; 
+          line-height: 1rem; 
+        }
+      
+        .progressbar,.progressbar1, .progressbar2, .progressbar3, .progressbar4, .progressbar5, .progressbar6 {
+          margin: 10px 0; 
+          width: 100%;
+          margin-bottom: 18px;
+        }
+      
+        .progressbar div, .progressbar1 div, .progressbar2 div, .progressbar3 div, .progressbar4 div , .progressbar5 div, .progressbar6  div{
+          display: flex;
+          justify-content: space-between; 
+          font-size: 14px;
+          flex-wrap: wrap;
+        }
+        
+        .html span, .css span, .TypeScript span, .nextjs span, .javascript span, .tailwindcss span, .reactjs span {
+            font-size: 12px;
+            margin-top: 2px;
+        }
+      
+        .bar1,.bar2, .bar3, .bar4, .bar5, .bar6, .bar7 {
+          height: 10px;
+          
+        }
+      
+        .professionallife p span {
+          display: block; 
+          margin-bottom: 5px;
+          font-weight: bold; 
+        }
+      }
+
+
+
+
+      @media (min-width: 481px) and (max-width: 768px) {
+        .container {
+          width: 98%; 
+          height: 100%;
+          padding: 10px 20px 10px 20px; 
+          margin: 0px;
+        }
+      
+        .skillwrap {
+          text-align: center;
+          height: 90vh;
+          margin:  10px 20px 20px 20px; 
+        }
+      
+        .heading {
+          font-size: 1.8rem;
+          text-align: center;
+        }
+      
+        .competencies h3 {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+      
+        .competencies p {
+          font-size: 1rem;
+          line-height: 1.5;
+        }
+        
+      
+        .Technicalskills h3 {
+          font-size: 1.5rem;
+          margin-bottom: 15px;
+        }
+      
+        .progressbar, .progressbar1, .progressbar2, .progressbar3, .progressbar4, .progressbar5, .progressbar6 {
+          margin: 20px 0px;
+          width: 100%;
+          
+        }
+      
+        .progressbar div, .progressbar1 div, .progressbar2 div, .progressbar3 div, .progressbar4 div, .progressbar5 div, .progressbar6 div {
+          font-size: 0.6rem;
+        }
+        
+        .bar1, .bar2, .bar3, .bar4, .bar5, .bar6, .bar7 {
+            height: 10px;
+            border-radius: 5px;
+        
+        }
+      
+        .html, .css, .TypeScript, .nextjs, .javascript, .tailwindcss, .reactjs {
+          display: flex;
+          justify-content: space-between;
+          font-size: 0.9rem;
+         
+        }
+      
+        .professionallife {
+          margin-top: 20px;
+        }
+      
+        .professionallife h3 {
+          font-size: 1.5rem;
+        }
+      
+        .professionallife p {
+          font-size: 1rem;
+          line-height: 1.5;
+          margin-bottom: 10px;
+        }
+      
+        .professionallife span {
+          font-weight: bold;
+        }
+    }
+
+
+      
+      
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .container {
+          width: 98%; 
+          height: 100%;
+          padding: 10px 20px 10px 20px; 
+          margin: 0px;
+        }
+      
+        .skillwrap {
+          margin: 15px auto;
+          padding: 15px;
+        }
+      
+        .heading {
+          font-size: 2rem;
+          text-align: center;
+        }
+      
+        .competencies h3 {
+          font-size: 1.8rem;
+          margin-bottom: 12px;
+        }
+      
+        .competencies p {
+          font-size: 1.1rem;
+          line-height: 1.6;
+        }
+      
+        .competencies span {
+          font-weight: bold;
+        }
+      
+        .Technicalskills h3 {
+          font-size: 1.8rem;
+          margin-bottom: 20px;
+        }
+      
+        .progressbar, .progressbar1, .progressbar2, .progressbar3, .progressbar4,.progressbar5,.progressbar6 {
+          margin: 20px 0;
+          width: 100%;
+        }
+      
+        .progressbar div,.progressbar1 div,.progressbar2 div,.progressbar3 div,.progressbar4 div,.progressbar5 div,.progressbar6 div {
+          font-size: 1rem;
+        }
+      
+        .bar1, .bar2, .bar3, .bar4, .bar5, .bar6, .bar7 {
+          height: 12px;
+          border-radius: 6px;
+        }
+      
+        .html, .css, .TypeScript, .nextjs, .javascript, .tailwindcss, .reactjs {
+          display: flex;
+          justify-content: space-between;
+          font-size: 1rem;
+          
+        }
+      
+        .professionallife {
+          margin-top: 25px;
+        }
+      
+        .professionallife h3 {
+          font-size: 1.8rem;
+        }
+      
+        .professionallife p {
+          font-size: 1.1rem;
+          line-height: 1.6;
+          margin-bottom: 12px;
+        }
+      
+        .professionallife span {
+          font-weight: bold;
+        }
+      }
+      
