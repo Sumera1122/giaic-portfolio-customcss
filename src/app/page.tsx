@@ -6,6 +6,7 @@ import Contact from "./contact/page";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { FaWhatsapp } from "react-icons/fa";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -55,7 +56,7 @@ const Home = () => {
         {/* right side */}
         <div className="rightside">
           <div className="image">
-            <img src="\images\image5.png" alt="Description of image" />
+            <Image src="\images\image5.png" alt="Description of image" />
           </div>
         </div>
       </div>
