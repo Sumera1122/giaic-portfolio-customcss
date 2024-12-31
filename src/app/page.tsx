@@ -19,7 +19,7 @@ const Home = () => {
               He <span>llo,</span>
             </h1>
             <h2>
-              I'm <span> sumera.</span>
+              I&apos;m <span> sumera.</span>
             </h2>
           </div>
           <h3> Front End developer</h3>
